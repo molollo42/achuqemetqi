@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funding Thermometer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        background-color: #f4f4f9;
+      }
+      .thermometer {
+        margin: 50px auto;
+        width: 50px;
+        height: 300px;
+        background: #ccc;
+        border-radius: 25px;
+        position: relative;
+        overflow: hidden;
+      }
+      .thermometer-fill {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: red;
+        height: 0%;
+        transition: height 0.5s ease-in-out;
+      }
+      .thermometer-label {
+        margin-top: 20px;
+        font-size: 1.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <svg id="fundraising-thermometer-318" width="300" height="500"></svg>
+    <script>
+      var fundraising_thermometer_318 = {
+        layout: "1",
+        "fill-color": "rgba(231, 97, 81, 1)",
+        "goal-amount": "2000",
+        "progress-amount": "763",
+        "show-goal-amount": "1",
+        "show-progress-amount": "1",
+        "animate-progress-fill": "1",
+      };
+    </script>
+    <script
+      for="fundraising-thermometer-318"
+      type="text/javascript"
+      src="https://d22knjn4n6hjqd.cloudfront.net/thermometer/embed.js"
+    ></script>
+  </body>
+</html>
